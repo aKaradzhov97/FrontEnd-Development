@@ -1,0 +1,64 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+}
+
+.fa-user {
+    position: relative;
+    top: 29px;
+    right: 70px;
+}
+
+.fa-key {
+    position: relative;
+    top: 29px;
+    right: 67px;
+}
+
+form {
+    margin: 5%;
+    background: #F9F9F9;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2%;
+    width: 20%;
+}
+
+
+input[type=submit] {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type=password],
+input[type=text] {
+    margin-bottom: 10px;
+    padding: 7px 0 7px 35px;
+    width: 88%;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+input[type=password]:hover,
+input[type=text]:hover {
+    border-color: #009900;
+}
+
+label {
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.login {
+    background: #F9F9F9;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    width: 7%;
+    border-radius: 6px;
+    position: relative;
+    top: 95px;
+    left: 76px;
+}

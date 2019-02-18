@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: rgb(238, 238, 238);
+    padding: 4rem 12rem;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", sans-serif;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+blockquote {
+    font-family: "Georgia", sans-serif;
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding: 30px;
+    margin: 40px 30px;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+blockquote .author {
+    float: right;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+.align-right {
+    float: right;
+}
+
+.align-left {
+    float: left;
+}

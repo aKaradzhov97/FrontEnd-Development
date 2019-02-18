@@ -1,0 +1,50 @@
+main > h2 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section.instructions {
+    display: flex;
+    justify-content: center;
+}
+
+section.instructions article {
+    width: 20%;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    background-color: #EDEDED;
+    padding: 1.5rem 0;
+}
+
+.gallery img {
+    margin: 0 0.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    background: #000;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.list-container {
+    display: flex;
+}
+
+footer li {
+    list-style: none outside;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}

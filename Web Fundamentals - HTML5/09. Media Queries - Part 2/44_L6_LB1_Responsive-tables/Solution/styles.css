@@ -1,0 +1,43 @@
+@import url('reset.css');
+@import url('typography.css');
+
+body {
+    background: #eee;
+}
+
+table thead th {
+    background-color: #333333;
+    color: #fff;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #F1F1F1;
+    color: #333333;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #FFF;
+    color: #333333;
+}
+
+@media screen and (max-width: 600px) {
+    table thead {
+        display: none;
+    }
+
+    table,
+    table tbody,
+    table tr, table td {
+        display: block;
+    }
+
+    table tbody td:before {
+        display: inline-block;
+        width: 5rem;
+        font-weight: bold;
+        text-align: right;
+        padding-right: 1rem;
+        white-space: nowrap;
+        content: attr(data-label);
+    }
+}

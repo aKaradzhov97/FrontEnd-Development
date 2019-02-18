@@ -1,0 +1,40 @@
+header {
+    background: #FFF;
+    padding: 2rem 0;
+}
+
+.title,
+.title-part-two {
+    font-size: 1.4rem;
+}
+
+.title-part-two {
+    color: #21A2B5;
+}
+
+.active {
+    border-bottom: 2px solid #34B1C4;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none outside;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-bottom: 0.2rem;
+    color: #111;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    padding: 1rem 8rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+
+#top-part {
+    display: flex;
+}
+
+.welcome-part,
+.gallery {
+    padding-left: 1rem;
+    border-left: 2px solid gray;
+}
+
+.welcome-part > p,
+.gallery > p {
+    opacity: 0.6;
+}
+
+.welcome-part {
+    flex: 66%;
+}
+
+.gallery {
+    flex: 33%;
+}
+
+#bottom-part {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+#bottom-part article {
+    flex: 33%;
+}
+
+#bottom-part article:not(:first-child) {
+    padding-left: 1.5rem;
+}
+
+#bottom-part article:last-child {
+    margin-top: 1rem;
+}

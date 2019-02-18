@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    border-right: 2px solid purple;
+    border-left: 2px solid purple;
+    background: #F6F6F6;
+}
+
+ul.about-awards {
+    display: block;
+    width: 100%;
+}
+
+ul.about-awards li {
+    list-style: none;
+    font-style: italic;
+}
+
+ul.about-awards li > i {
+    color: gold;
+}

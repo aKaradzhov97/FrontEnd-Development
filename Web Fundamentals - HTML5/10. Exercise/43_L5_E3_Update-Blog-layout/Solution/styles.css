@@ -1,0 +1,91 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('navigation.css');
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2rem 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+body .page > header:first-of-type {
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%
+}
+
+.site-title {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 4 1 30rem;
+}
+
+aside {
+    flex: 1 1 10rem;
+    padding-left: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    aside {
+        justify-content: center;
+    }
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 5px solid black;
+    padding: 1rem;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.align-left {
+    float: left;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .align-right {
+        float: left;
+        clear: both;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .align-left {
+        float: left;
+        clear: both;
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,35 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+    flex: 0 0 20rem;
+    margin: 2rem;
+    padding: 1rem;
+    border: 15px solid #000;
+    overflow: hidden;
+    background-color: #fff;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+}

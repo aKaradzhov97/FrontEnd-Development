@@ -1,0 +1,48 @@
+@import "https://use.fontawesome.com/releases/v5.4.1/css/all.css";
+
+body {
+    font-family: 'Constantia', sans-serif;
+    background: #EEEEEE;
+    padding: 5rem;
+}
+
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.normal {
+    border: 2px solid #333333;
+    color: #333333;
+    border-radius: 5px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.normal:hover {
+    border: 2px solid #006600;
+    color: #009900;
+}
+
+.filled,
+.iconbtn {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 13px;
+}
+
+.filled:hover {
+    background-color: #006600;
+    color: #FFFFFF;
+}
+
+.iconbtn:hover {
+    background-color: #006600;
+    color: #FFFFFF;
+}

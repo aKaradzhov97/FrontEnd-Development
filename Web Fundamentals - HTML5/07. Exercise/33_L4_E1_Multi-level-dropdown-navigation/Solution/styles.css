@@ -1,0 +1,109 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background: rgb(238, 238, 238);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header article {
+    float: left;
+}
+
+ul {
+    background: #FFF;
+    padding: 5px;
+}
+
+/* Menu Styles */
+
+.third-level-menu
+{
+    position: absolute;
+    top: -10px;
+    right: 150px;
+    width: 150px;
+    list-style: none;
+    display: none;
+}
+
+.third-level-menu > li
+{
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: #333333;
+}
+.third-level-menu > li:hover { background: #009900; }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background: #333333;
+    border-radius: 5px;
+}
+.second-level-menu > li:hover { background: #009900; }
+
+.top-level-menu
+{
+    list-style: none;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: #333333;
+    border-radius: 5px;
+}
+.top-level-menu > li:hover { background: #009900; }
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    color: #FFFFFF;
+    /* Make the link cover the entire list item-container */
+    display: block;
+}
+
+nav {
+    display: flex;
+}

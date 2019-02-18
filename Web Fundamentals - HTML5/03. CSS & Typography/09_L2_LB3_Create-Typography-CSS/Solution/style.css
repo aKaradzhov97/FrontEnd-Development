@@ -1,0 +1,36 @@
+body {
+    margin: 20px 150px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(204, 204, 204);
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(204, 204, 204)
+}
+
+tr {
+    line-height: 1.5em;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+th {
+    background-color: rgb(204, 204, 204);
+}
+
+blockquote {
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding: 30px;
+    margin: 40px 30px;
+}
+
+blockquote .author {
+    float: right;
+}

@@ -1,0 +1,50 @@
+html {
+    background-color: #EEEEEE;
+    padding: 4rem;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+nav {
+    display: inline-block;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+button {
+    background-color: #EEEEEE;
+    border: none;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: rgb(0, 150, 0);
+
+}
+
+.title {
+    display: inline-block;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.wtf {
+    display: none;
+}

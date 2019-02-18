@@ -1,0 +1,43 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+body {
+    margin: 0;
+}
+
+i {
+    color: rgb(255, 255, 255);
+}
+
+.fa-link {
+    position: absolute;
+    top: 65%;
+    left: 62%;
+}
+
+.fa-star {
+    position: absolute;
+    top: 90%;
+    left: 62%;
+}
+
+img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(to right, #195d9d, #2d949f, #41C9a2);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #A83378, #BC5945, #D28213);
+}

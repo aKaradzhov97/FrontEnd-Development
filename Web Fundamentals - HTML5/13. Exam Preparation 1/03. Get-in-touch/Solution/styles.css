@@ -1,0 +1,86 @@
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    background: linear-gradient(rgba(109, 59, 240, 0.7), rgba(109, 59, 240, 0.7)), url("images/bg-01.jpg");
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    background: #FFF;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding: 4rem 0.5rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+main > section {
+    width: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 60%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container h3 {
+    font-weight: bold;
+}
+
+.form-container input {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 1rem 0.8rem 2rem;
+    background: #E6E6E6;
+    margin-bottom: 0.3rem;
+    width: 15rem;
+}
+
+textarea {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    background: #E6E6E6;
+    margin-bottom: 1rem;
+    width: 15.6rem;
+}
+
+.form-container input[type="submit"] {
+    background: #846ADD;
+    color: #FFF;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    width: 18.1rem;
+}
+
+.form-container input[type="submit"]:hover {
+    background: #000;
+    cursor: pointer;
+}
+
+i {
+    position: relative;
+    top: 0; right: 17.3rem;
+    font-size: 12px;
+    color: gray;
+}
+
+.form-container form input:focus + .fas {
+    color: #846ADD;
+}

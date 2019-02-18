@@ -1,0 +1,43 @@
+nav {
+    background-color: #fafafa;
+}
+
+nav,
+nav ul {
+    display: flex;
+}
+
+.first-list {
+    justify-content: center;
+    flex: 70%;
+}
+.second-list {
+    margin-right: 9rem;
+}
+
+.first-list li,
+.second-list li {
+    margin: 1rem;
+    list-style: none outside;
+}
+
+.first-list li a,
+.second-list li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.first-list li a,
+.second-list li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.first-list li a:hover,
+.second-list li a:hover {
+    color: #FA5B3D;
+}
+
+.first-list li:first-child a {
+    color: #FA5B3D;
+}

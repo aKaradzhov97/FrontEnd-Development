@@ -1,0 +1,27 @@
+@media all and (max-width: 480px) {
+    .wrapper > header h2:after {
+        width: 37%;
+    }
+
+    .wrapper.style1 .content,
+    .spotlight .inner,
+    .wrapper.style2,
+    .spotlight .alt {
+        padding: 1.5rem;
+        color: gray;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+}

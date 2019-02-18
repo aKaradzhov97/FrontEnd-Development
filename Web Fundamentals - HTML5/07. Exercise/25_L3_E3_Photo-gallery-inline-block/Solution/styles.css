@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 6rem;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    padding: 1rem;
+    margin: 7px;
+    background: rgb(255, 255, 255);
+    border: 3px solid #000;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resize-img {
+
+}
+
+img {
+    width: 300px;
+}

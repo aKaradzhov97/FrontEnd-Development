@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    padding: 2rem 14.5rem;
+}
+
+h2 {
+    color: #454545;
+    border-bottom: 2px solid #34B1C4;
+    display: inline-block;
+    width: 4.75rem;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+h3 {
+    background: #333333;
+    color: #FFF;
+    padding: 0.8rem;
+    margin: 0;
+}
+
+section > article:nth-child(2) h3 {
+    background: #1996A9 !important;
+}
+
+section {
+    display: flex;
+}
+
+section > article {
+    flex: 30%;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+section > article:nth-child(2) {
+    margin: 0 1.5rem;
+}
+
+.price {
+    background: #F6F6F6;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    margin: 0;
+}
+
+.info {
+    border-bottom: 1px dotted #DDDDDD;
+    margin: 0;
+    padding: 0.8rem;
+    opacity: 0.7;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+button {
+    margin: 1.5rem 0 1rem 0;
+    padding: 0.65rem 1.65rem;
+    background: #008CBA;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}

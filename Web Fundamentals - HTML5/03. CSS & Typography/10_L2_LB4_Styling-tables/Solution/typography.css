@@ -1,0 +1,34 @@
+body {
+    margin: 100px 150px;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(204, 204, 204);
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(204, 204, 204);
+    padding-left: 10px;
+}
+
+tr {
+    line-height: 1.5em;
+}
+
+tr:nth-child(odd) td {
+     background-color: rgb(241, 241, 241);
+}
+
+th {
+    background-color: rgb(204, 204, 204);
+    color: rgb(0,0,0) !important;
+}
+
+tr:hover {
+    background-color: rgb(0,0,0) !important;
+    color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,15 @@
+header {
+    background: url("img/residential-banner-2.jpg");
+    padding: 3.25rem 1rem;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+}
+
+header > h2:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+header > p:last-child {
+    margin-top: 1rem;
+}

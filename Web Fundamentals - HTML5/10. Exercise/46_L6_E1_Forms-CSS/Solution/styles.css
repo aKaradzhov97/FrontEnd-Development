@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('reset.css');
+@import url('typography.css');
+@import url('buttons.css');
+@import url('forms.css');
+
+body {
+    background: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: 'Lato', sans-serif;
+}

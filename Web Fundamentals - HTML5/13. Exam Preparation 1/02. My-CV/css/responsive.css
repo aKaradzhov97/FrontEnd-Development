@@ -1,0 +1,111 @@
+/*TODO:*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+@media all and (max-width: 768px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #main > aside {
+        width: 96%;
+        flex-wrap: wrap;
+        margin: 2%;
+    }
+
+    #main > aside > img {
+        width: 100%;
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    #main > aside > article {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .inner-progress-bar {
+        color: transparent;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #work {
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+
+    .uni-img-container {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .school div {
+        text-align: center;
+    }
+
+    .school div img {
+        width: 60%;
+    }
+
+    #education > article > div > p {
+        text-align: left;
+    }
+
+    aside {
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 1rem;
+    }
+}
+
+@media all and (max-width: 1028px) and (min-width: 769px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #main aside {
+        margin: 2rem 2rem 0 2rem;
+        width: calc(100% - 4rem);
+    }
+
+    #personal-info {
+        display: inline-block;
+    }
+
+    aside img {
+        border-radius: 50%;
+        width: 215px;
+        height: 210px;
+        margin-left: 27%;
+        margin-top: 3rem;
+        margin-right: 1.5rem;
+    }
+
+    .progress-bar {
+        color: transparent;
+    }
+
+    main {
+        margin: 0 2rem;
+        width: calc(100% - 4rem);
+    }
+
+    main section {
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+
+}
